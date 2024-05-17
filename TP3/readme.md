@@ -7,9 +7,8 @@ si, es predecible hasta sierto punto ya que las milesimas de cada uno pueden ir 
 1-b-
 si, son iguales 
 
-
-
 2-a-
+'''
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -62,3 +61,6 @@ int main(int argc, char *argv[])
 	}
 	pthread_exit(NULL); // como los hilos que cree ya terminaron de ejecutarse, termino yo tambien.
 }
+'''
+
+
